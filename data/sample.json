@@ -1,0 +1,137 @@
+{
+  "_notice": "Phrases originales de démonstration; catalogue à enrichir avant publication.",
+  "dataset_version": "0.1.0-local",
+  "languages": [
+    {
+      "code": "fr",
+      "label": "Français"
+    }
+  ],
+  "categories": [
+    {
+      "slug": "motivation",
+      "label": "Motivation"
+    },
+    {
+      "slug": "sagesse",
+      "label": "Sagesse"
+    },
+    {
+      "slug": "prediction",
+      "label": "Prédiction"
+    },
+    {
+      "slug": "humour",
+      "label": "Humour"
+    },
+    {
+      "slug": "mystere",
+      "label": "Mystère"
+    },
+    {
+      "slug": "reponses",
+      "label": "Réponses"
+    }
+  ],
+  "fortunes": [
+    {
+      "id": "fr-000001",
+      "text": "Un petit pas reste un pas en avant.",
+      "language": "fr",
+      "categories": [
+        "motivation",
+        "sagesse"
+      ]
+    },
+    {
+      "id": "fr-000002",
+      "text": "Les carottes ont parfois raison avant les lapins.",
+      "language": "fr",
+      "categories": [
+        "humour",
+        "mystere"
+      ]
+    },
+    {
+      "id": "fr-000003",
+      "text": "Les signes semblent favorables.",
+      "language": "fr",
+      "categories": [
+        "reponses",
+        "prediction"
+      ]
+    },
+    {
+      "id": "fr-000004",
+      "text": "La persévérance transforme les petites actions en grandes avancées.",
+      "language": "fr",
+      "categories": [
+        "motivation"
+      ]
+    },
+    {
+      "id": "fr-000005",
+      "text": "Écouter avant de répondre ouvre parfois une autre voie.",
+      "language": "fr",
+      "categories": [
+        "sagesse"
+      ]
+    },
+    {
+      "id": "fr-000006",
+      "text": "Le temps clarifie ce que la précipitation complique.",
+      "language": "fr",
+      "categories": [
+        "sagesse"
+      ]
+    },
+    {
+      "id": "fr-000007",
+      "text": "Une occasion inattendue pourrait éveiller votre curiosité.",
+      "language": "fr",
+      "categories": [
+        "prediction"
+      ]
+    },
+    {
+      "id": "fr-000008",
+      "text": "Une rencontre ordinaire pourrait changer votre perspective.",
+      "language": "fr",
+      "categories": [
+        "prediction"
+      ]
+    },
+    {
+      "id": "fr-000009",
+      "text": "Le lapin consulte sa montre : il est déjà carotte moins le quart.",
+      "language": "fr",
+      "categories": [
+        "humour"
+      ]
+    },
+    {
+      "id": "fr-000010",
+      "text": "Une porte sans serrure ne demande peut-être pas de clé.",
+      "language": "fr",
+      "categories": [
+        "mystere"
+      ]
+    },
+    {
+      "id": "fr-000011",
+      "text": "Certaines ombres savent attendre la lumière.",
+      "language": "fr",
+      "categories": [
+        "mystere"
+      ]
+    },
+    {
+      "id": "fr-000012",
+      "text": "Mieux vaut attendre avant de décider.",
+      "language": "fr",
+      "categories": [
+        "reponses"
+      ]
+    }
+  ]
+}
