@@ -7,8 +7,20 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 from .db import get_session
 from .models import Category, DailyFortune, Fortune, Language
+from fastapi.middleware.cors import CORSMiddleware
 
-app = FastAPI(title="Fortune Rabbit API", version="0.1.0", description="API publique de phrases — V1 locale")
+app = FastAPI(
+    title="Fortune Rabbit (Fora) API",
+    version="1.0.0",
+    description="API REST publique proposant des phrases aléatoires, des réponses et une phrase du jour commune à tous les utilisateurs."
+)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=False,
+    allow_methods=["GET"],
+    allow_headers=["*"],
+)
 rng = SystemRandom()
 DB = Annotated[Session, Depends(get_session)]
 
